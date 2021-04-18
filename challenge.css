@@ -1,0 +1,92 @@
+
+html{
+	scroll-behavior:smooth;
+}
+body {
+	margin: 0;
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+#menubar {
+	background-color: #e74c3c;
+	
+	
+	position: sticky;
+	top: 0;
+	width:200px;
+	
+}
+
+#menubar a {
+	
+	padding:20px;
+	margin: 0 20px 0 0;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	display: block;
+
+}
+#menubar a.current{
+	background: ;
+	animation-name: light;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	width:80%;
+}
+@keyframes light{
+	0%{background-color: #1ABC9C;}
+	10%{background-color: #F1C40F;}
+	30%{background-color: #9B59B6 ;}
+	50%{background-color: #FF0000;}
+	75%{background-color: #008000;}
+	100%{background-color:#0000FF;}
+	
+
+}
+#menubar a:hover {
+	text-decoration: underline;
+}
+
+#menubar a:last-child {
+	margin: 0;
+}
+
+
+.section {
+	height: 100vh;
+	line-height: 100vh;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+
+	
+}
+
+#section-1 {
+	background-color: #1abc9c;
+	margin-top: -360px;
+}
+
+#section-2 {
+	background-color: #f1c40f;
+}
+
+#section-3 {
+	background-color: #9b59b6;
+}
+#section-4 {
+	background-color:red;
+}
+
+#section-5 {
+	background-color:green;
+}
+
+#section-6 {
+	background-color: blue;
+}
+
+
